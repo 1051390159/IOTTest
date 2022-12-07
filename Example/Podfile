@@ -1,0 +1,11 @@
+#use_frameworks!
+
+source 'https://gitee.com/tange-ai/tgopenspec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '11.0'
+
+target 'IOTTest_Example' do
+  pod 'IOTTest', :path => '../'
+
+end
